@@ -52,3 +52,10 @@ section{
         color: var(--cor-secundaria);
     }
 }
+
+/* Tablet */
+@media(max-width :780px){
+    .link-home{
+        display: none;
+    }
+}
