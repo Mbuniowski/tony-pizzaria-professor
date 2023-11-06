@@ -85,3 +85,13 @@
 .cardapio-bebidas .info-texto{
     font-size: .8rem;
 }
+
+/* TABLET */
+@media (max-width: 768px){
+    /* esse nth-child serve para ocutar as imagem que voce nao deseja no menu da pizzaria mostra 4 pizzas para tablet so quero 2 imagens entao isso essa funçao */
+    .produto:nth-child(n+3){
+        display: none;
+    }
+    
+}
+    
